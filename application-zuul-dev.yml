@@ -1,5 +1,5 @@
 server:
-  port: 9527
+  port: 6001
 spring:
   application:
     name: zuul-gateway
