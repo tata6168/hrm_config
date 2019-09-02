@@ -11,3 +11,4 @@ spring:
 mybatis-plus:
   mapper-locations: classpath:com/liuyan/mapper/*Mapper.xml
   type-aliases-package: com.liuyan.domain,com.liuyan.query
+  
