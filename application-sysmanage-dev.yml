@@ -9,6 +9,6 @@ spring:
       username: root
       password: 123456
 mybatis-plus:
-  mapper-locations: classpath:com/liuyan/mapper/*Mapper.xml
-  type-aliases-package: com.liuyan.domain,com.liuyan.query
+  mapper-locations: classpath:com/liuyan/hrm/mapper/*Mapper.xml
+  type-aliases-package: com.liuyan.hrm.domain,com.liuyan.hrm.query
   
