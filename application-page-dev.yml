@@ -1,0 +1,14 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: hrm-page
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/hrm_page
+      username: root
+      password: 123456
+mybatis-plus:
+  mapper-locations: classpath:com/liuyan/hrm/mapper/*Mapper.xml
+  type-aliases-package: com.liuyan.hrm.domain,com.liuyan.hrm.query
+  
